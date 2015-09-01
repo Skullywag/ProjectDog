@@ -5,26 +5,26 @@
   </PawnKindDef>
   
   <PawnKindDef ParentName="AnimalBase">
-    <defName>GermanShepherd</defName>
-    <label>german shepherd</label>
-    <race>GermanShepherd</race>
-    <combatPower>60</combatPower>
+    <defName>PitBull</defName>
+    <label>pit bull</label>
+    <race>PitBull</race>
+    <combatPower>70</combatPower>
     <lifeStages>
       <li>
-        <label>german shepherd puppy</label>
+        <label>pit bull puppy</label>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/GermanShepherd</texPath>
-          <drawSize>0.9</drawSize>
+          <texPath>Things/Pawn/Animal/PitBull</texPath>
+          <drawSize>0.7</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/CritterDessicatedSmall</texPath>
-          <drawSize>0.9</drawSize>
+          <drawSize>0.7</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/GermanShepherd</texPath>
-          <drawSize>1.4</drawSize>
+          <texPath>Things/Pawn/Animal/PitBull</texPath>
+          <drawSize>1.1</drawSize>
           <shadowData>
             <volume>(0.25, 0.3, 0.25)</volume>
             <offset>(0,0,-0.15)</offset>
@@ -32,13 +32,13 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/CritterDessicatedSmall</texPath>
-          <drawSize>1.4</drawSize>
+          <drawSize>1.1</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
-          <texPath>Things/Pawn/Animal/GermanShepherd</texPath>
-          <drawSize>1.65</drawSize>
+          <texPath>Things/Pawn/Animal/PitBull</texPath>
+          <drawSize>1.35</drawSize>
           <shadowData>
             <volume>(0.3, 0.4, 0.3)</volume>
             <offset>(0,0,-0.15)</offset>
@@ -46,7 +46,7 @@
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
           <texPath>Things/Pawn/Animal/CritterDessicatedSmall</texPath>
-          <drawSize>1.65</drawSize>
+          <drawSize>1.35</drawSize>
         </dessicatedBodyGraphicData>
       </li>
     </lifeStages>
