@@ -82,7 +82,7 @@
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <petness>1</petness>
       <herdAnimal>true</herdAnimal>
-      <baseBodySize>1.0</baseBodySize>
+      <baseBodySize>0.7</baseBodySize>
       <baseHungerRate>0.5</baseHungerRate>
       <baseHealthScale>1</baseHealthScale>
       <diet>Omnivorous</diet>
@@ -103,7 +103,7 @@
           <li>(3.5, 0)</li>
         </points>
       </litterSizeCurve>
-      <lifeExpectancy>14</lifeExpectancy>
+      <lifeExpectancy>16</lifeExpectancy>
       <lifeStageAges>
         <li>
           <def>AnimalBaby</def>

@@ -82,7 +82,7 @@
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <petness>1</petness>
       <herdAnimal>true</herdAnimal>
-      <baseBodySize>1.0</baseBodySize>
+      <baseBodySize>0.4</baseBodySize>
       <baseHungerRate>0.5</baseHungerRate>
       <baseHealthScale>1.05</baseHealthScale>
       <diet>Omnivorous</diet>
