@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="AnimalBase" Abstract="True">
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="AnimalBase">
+    <defName>Samoyed</defName>
+    <label>samoyed</label>
+    <race>Samoyed</race>
+    <combatPower>60</combatPower>
+    <lifeStages>
+      <li>
+        <label>samoyed puppy</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Samoyed</texPath>
+          <drawSize>0.9</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/CritterDessicatedSmall</texPath>
+          <drawSize>0.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Samoyed</texPath>
+          <drawSize>1.4</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/CritterDessicatedSmall</texPath>
+          <drawSize>1.4</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Samoyed</texPath>
+          <drawSize>1.65</drawSize>
+          <shadowData>
+            <volume>(0.3, 0.4, 0.3)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/CritterDessicatedSmall</texPath>
+          <drawSize>1.65</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+    <wildSpawn_spawnWild>false</wildSpawn_spawnWild>
+  </PawnKindDef>
+  
+</Defs>
